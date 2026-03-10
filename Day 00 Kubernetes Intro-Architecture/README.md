@@ -35,13 +35,3 @@ Our example setup includes three main components:
 
 Each component runs on a Docker host with an Ubuntu operating system and uses Docker as the container engine. We demonstrate how both Kubernetes can manage these components effectively.
 
-## Watch the Video
-
-For a detailed walkthrough, watch our video on YouTube:
-
-[Watch the Video](https://www.youtube.com/playlist?list=PLMj5OfHGyNU9TuhIiS2Kl2DXJeGXiKr1K)
-
-## Get in Touch
-
-If you have any questions or feedback, feel free to reach out or leave a comment on the video. Don't forget to like and subscribe for more content!
-

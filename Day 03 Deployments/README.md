@@ -21,12 +21,12 @@ StatefulSets maintain the identity of pods, ensuring the hostname remains the sa
 
 ### Creating a Deployment
 ```sh
-kubectl create deployment testapp --image kiran2361993/kubegame:v1 --replicas 3 --dry-run -o yaml
+kubectl create deployment testapp --image jonathanpriyaraj1/kubegame:v1 --replicas 3 --dry-run -o yaml
 ```
 
 ### Adding Another Container
 Add the following container to the deployment:
-- Image: `kiran2361993/mydb:v1`
+- Image: `jonathanpriyaraj1/mydb:v1`
 - Name: `Database`
 
 ### Labels and Annotations
@@ -46,8 +46,8 @@ kubectl get pods
 ### Adding Annotations
 Annotations can pass information such as:
 - Info: "This Deployment file has been created by Saikiran Pinapathruni"
-- Email: "pinapathruni.saikiran@gmail.com"
-- Owner: "Saikiran Pinapathruni"
+- Email: "myemailaddress"
+- Owner: "Jonathan Priyaraj"
 
 ### Environment Variables
 Set environment variables at the container level:
